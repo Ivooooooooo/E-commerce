@@ -1,0 +1,334 @@
+
+
+span.title
+{
+	margin-left: 50px;
+    width: 129px;
+	height: 34px;
+	color: #e61610;
+	font-family: "Source Sans 3";
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 1.28;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul.barraNav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	float: right;
+	margin-right: 50px;
+}
+  
+li a {
+	display: block;
+	padding: 8px;
+}
+
+li.leftSide {
+	float: left;
+}
+
+.userLogin {
+	width: 24px;
+	height: 24px;
+	border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.iconoCarrito {
+	width: 16px;
+	height: 18px;
+	border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.circuloCarrito {
+	width: 15px;
+	height: 16px;
+	background: #e61610;
+	color: #ffffff;
+	border-color: #ffffff;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 25px 25px 25px 25px;
+	font-family: "Source Sans 3";
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 1;
+	text-align: center;
+}
+
+.p-TitleTxt {
+	color: #ff3823;
+	font-family: "Source Sans 3";
+	font-weight: 700;
+	font-size: 36px;
+	text-align: center;
+}
+
+.p-Txt {
+	color: #7a7a7a;
+	font-family: "Source Sans 3";
+	font-weight: 400;
+	font-size: 16px;
+	text-align: center;
+}
+
+.contenedorDiv
+{
+	display: flex;
+ 	justify-content: center;
+  	align-items: center;
+}
+
+.contenedorDiv-Txt {
+	color: #7a7a7a;
+	font-family: "Source Sans 3";
+	font-weight: 400;
+	font-size: 16px;
+	text-align: center;
+	line-height: 1.5;
+	padding: 20px;
+	max-width: 50%;
+}
+
+.mid {
+	margin-left: 41%;
+}
+
+.mid-Foot
+{
+	margin-left: 48%;
+}
+
+.olviForm {
+	width: 158px;
+	height: 24px;
+	color: #444444;
+	font-family: "Source Sans 3";
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 1.3;
+	text-align: left;
+}
+
+.recordar {
+	width: 103px;
+	height: 27px;
+	color: #444444;
+	font-family: "Source Sans 3";
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.3;
+	text-align: left;
+}
+
+.btnLogin {
+	width: 439px;
+	height: 48px;
+	padding: 0px 10px 0px 10px;
+	background: #e61610;
+	color: #ffffff;
+	border-color: #444444;
+	border-width: 1px;
+	border-style: solid;
+	font-family: "Source Sans 3";
+	font-weight: 700;
+	font-size: 18px;
+	text-align: center;
+}
+
+.btnLogin:hover {
+	background: #b90600;
+    cursor: pointer;
+}
+
+.btnRegistro {
+	margin-left: 41%;
+	width: 350px;
+	height: 48px;
+	padding: 0px 10px 0px 10px;
+	background: #ffffff;
+	color: #444444;
+	border-color: #0c59cf;
+	border-width: 2px;
+	border-style: solid;
+	font-family: "Source Sans 3";
+	font-weight: 700;
+	font-size: 18px;
+	text-align: center;
+}
+
+.btnRegistro:hover {
+	background: #c5c5c5;
+    cursor: pointer;
+}
+
+.btnEnviar {
+	width: 350px;
+	height: 48px;
+	padding: 0px 10px 0px 10px;
+	background: #e61610;
+	color: #ffffff;
+	border-color: #444444;
+	border-width: 1px;
+	border-style: solid;
+	font-family: "Source Sans 3";
+	font-weight: 700;
+	font-size: 18px;
+	text-align: center;
+}
+
+.btnEnviar:hover {
+	background: #b90600;
+    cursor: pointer;
+}
+
+form {
+	margin-left: 41%;
+    width: 350px;
+    position: relative;
+	text-align: center;
+}
+
+form .campoForm::before {
+    font-size: 20px;
+    position: absolute;
+    left: 15px;
+    top: 17px;
+    color: #888888;
+    content: " ";
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form .campoForm:nth-child(1)::before {
+    content: '\f007';
+    font: var(--fa-font-regular);
+    width: 20px;
+    height: 20px;
+    top: 15px;
+}
+
+form .campoForm:nth-child(2)::before {
+    content: '\f023';
+    font: var(--fa-font-regular);
+    width: 16px;
+    height: 16px;
+}
+
+form .campoForm {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+form .campoFormContacto::before {
+    font-size: 20px;
+    position: absolute;
+    left: 15px;
+    top: 17px;
+    color: #888888;
+    content: " ";
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form .campoFormContacto {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+form .campoFormContacto:nth-child(1)::before {
+    content: '\f007';
+    font: var(--fa-font-regular);
+    width: 20px;
+    height: 20px;
+    top: 15px;
+}
+
+form .campoFormContacto:nth-child(2)::before {
+    content: '\f0e0';
+    font: var(--fa-font-regular);
+    width: 16px;
+    height: 16px;
+}
+
+form .campoFormContacto:nth-child(3)::before {
+    content: '\f27a';
+    font: var(--fa-font-regular);
+    width: 16px;
+    height: 16px;
+}
+
+form input {
+    font-family: "Source Sans 3";
+    width: 100%;
+    outline: none;
+    background-color: #fff;
+    border-radius: 4px;
+    border: none;
+    display: block;
+    padding: 0.9rem 0.7rem;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    font-size: 17px;
+    color: #4A4A4A;
+    text-indent: 40px;
+}
+
+.logoInstagram {
+	width: 19px;
+	height: 19px;
+	color: #d757f6;
+	text-decoration: none;
+}
+
+.logoTwitter {
+	width: 19px;
+	height: 19px;
+	color: #4dd7fa;
+	text-decoration: none;
+}
+
+.logoFacebook {
+	width: 19px;
+	height: 19px;
+	color: #0c59cf;
+	text-decoration: none;
+}
+
+.logoYouTube {
+	width: 19px;
+	height: 19px;
+	color: #ff3823;
+	text-decoration: none;
+	text-align: center;
+}
+
+.buscarProd {
+	width: 24px;
+	height: 24px;
+}
