@@ -1,0 +1,759 @@
+span.title {
+  width: 129px;
+  height: 34px;
+  color: #e61610;
+  font-family: "Source Sans 3";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.28;
+  text-align: left;
+}
+
+.userLogin {
+  border: none;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.iconoCarrito {
+  border: none;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#carouselex {
+  display: inline-block;
+  width: 50%;
+  height: 50%;
+  margin-top: 5%;
+  margin-left: 24%;
+}
+
+.carousel-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.carousel-item img {
+  width: 500px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.p-Desc {
+  width: 319px;
+  height: 57px;
+  color: #0c59cf;
+  font-family: "Source Sans 3";
+  font-weight: bold;
+  font-size: 22px;
+  text-align: left;
+}
+
+.marginLeft {
+  margin-left: 460px;
+  margin-top: 50px;
+}
+
+.arregloTarjeta {
+  height: 100%;
+}
+
+.arregloTarjeta-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 200px;
+}
+
+.txt-Right {
+  display: inline !important;
+  margin-left: 260px !important;
+}
+
+.buscarProds {
+  width: 159px;
+  height: 22px;
+  color: #0c59cf;
+  font-family: "Source Sans 3";
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: underline;
+  line-height: 1.3;
+  text-align: right;
+}
+
+.mid-Foot {
+  margin-left: 48%;
+}
+
+.logoInstagram {
+  width: 19px;
+  height: 19px;
+  color: #d757f6;
+  text-decoration: none;
+}
+
+.logoTwitter {
+  width: 19px;
+  height: 19px;
+  color: #4dd7fa;
+  text-decoration: none;
+}
+
+.logoFacebook {
+  width: 19px;
+  height: 19px;
+  color: #0c59cf;
+  text-decoration: none;
+}
+
+.logoYouTube {
+  width: 19px;
+  height: 19px;
+  color: #ff3823;
+  text-decoration: none;
+  text-align: center;
+}
+
+span.title {
+  width: 129px;
+  height: 34px;
+  color: #e61610;
+  font-family: "Source Sans 3";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.28;
+  text-align: left;
+}
+
+.userLogin {
+  border: none;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.iconoCarrito {
+  border: none;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#carouselex {
+  display: inline-block;
+  width: 50%;
+  height: 50%;
+  margin-top: 5%;
+  margin-left: 24%;
+}
+
+.carousel-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.carousel-item img {
+  width: 500px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.p-Desc {
+  width: 319px;
+  height: 57px;
+  color: #0c59cf;
+  font-family: "Source Sans 3";
+  font-weight: bold;
+  font-size: 22px;
+  text-align: left;
+}
+
+.marginLeft {
+  margin-left: 460px;
+  margin-top: 50px;
+}
+
+.arregloTarjeta {
+  height: 100%;
+}
+
+.arregloTarjeta-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 200px;
+}
+
+.txt-Right {
+  display: inline !important;
+  margin-left: 260px !important;
+}
+
+.buscarProds {
+  width: 159px;
+  height: 22px;
+  color: #0c59cf;
+  font-family: "Source Sans 3";
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: underline;
+  line-height: 1.3;
+  text-align: right;
+}
+
+.mid-Foot {
+  margin-left: 48%;
+}
+
+.logoInstagram {
+  width: 19px;
+  height: 19px;
+  color: #d757f6;
+  text-decoration: none;
+}
+
+.logoTwitter {
+  width: 19px;
+  height: 19px;
+  color: #4dd7fa;
+  text-decoration: none;
+}
+
+.logoFacebook {
+  width: 19px;
+  height: 19px;
+  color: #0c59cf;
+  text-decoration: none;
+}
+
+.logoYouTube {
+  width: 19px;
+  height: 19px;
+  color: #ff3823;
+  text-decoration: none;
+  text-align: center;
+}
+
+.userLogin {
+  border: none;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.iconoCarrito {
+  border: none;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.p-TitleTxt {
+  color: #ff3823;
+  font-family: "Source Sans 3";
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+}
+
+.p-Txt {
+  color: #7a7a7a;
+  font-family: "Source Sans 3";
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+
+.contenedorDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedorDiv-Txt {
+  color: #7a7a7a;
+  font-family: "Source Sans 3";
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.5;
+  padding: 20px;
+  max-width: 50%;
+}
+
+.mid-Foot {
+  margin-left: 48%;
+}
+
+.olviForm {
+  width: 158px;
+  height: 24px;
+  color: #444444;
+  font-family: "Source Sans 3";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.3;
+  text-align: left;
+}
+
+.recordar {
+  width: 103px;
+  height: 27px;
+  color: #444444;
+  font-family: "Source Sans 3";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.3;
+  text-align: left;
+}
+
+.btnEnviar {
+  width: 350px;
+  height: 48px;
+  padding: 0px 10px 0px 10px;
+  background: #e61610;
+  color: #ffffff;
+  border-color: #444444;
+  border-width: 1px;
+  border-style: solid;
+  font-family: "Source Sans 3";
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+}
+.btnEnviar:hover {
+  background: #b90600;
+  cursor: pointer;
+}
+
+form {
+  margin-left: 41%;
+  width: 350px;
+  position: relative;
+  text-align: center;
+}
+form .campoForm::before {
+  font-size: 20px;
+  position: absolute;
+  left: 15px;
+  top: 17px;
+  color: #888888;
+  content: " ";
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+form .campoForm:nth-child(1)::before {
+  content: "\f007";
+  font: var(--fa-font-regular);
+  width: 20px;
+  height: 20px;
+  top: 15px;
+}
+form .campoForm:nth-child(2)::before {
+  content: "\f023";
+  font: var(--fa-font-regular);
+  width: 16px;
+  height: 16px;
+}
+form .campoForm {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  position: relative;
+}
+form .campoFormContacto::before {
+  font-size: 20px;
+  position: absolute;
+  left: 15px;
+  top: 17px;
+  color: #888888;
+  content: " ";
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+form .campoFormContacto {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  position: relative;
+}
+form .campoFormContacto:nth-child(1)::before {
+  content: "\f007";
+  font: var(--fa-font-regular);
+  width: 20px;
+  height: 20px;
+  top: 15px;
+}
+form .campoFormContacto:nth-child(2)::before {
+  content: "\f0e0";
+  font: var(--fa-font-regular);
+  width: 16px;
+  height: 16px;
+}
+form .campoFormContacto:nth-child(3)::before {
+  content: "\f27a";
+  font: var(--fa-font-regular);
+  width: 16px;
+  height: 16px;
+}
+form input {
+  font-family: "Source Sans 3";
+  width: 100%;
+  outline: none;
+  background-color: #fff;
+  border-radius: 4px;
+  border: none;
+  display: block;
+  padding: 0.9rem 0.7rem;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  font-size: 17px;
+  color: #4A4A4A;
+  text-indent: 40px;
+}
+
+.logoInstagram {
+  width: 19px;
+  height: 19px;
+  color: #d757f6;
+  text-decoration: none;
+}
+
+.logoTwitter {
+  width: 19px;
+  height: 19px;
+  color: #4dd7fa;
+  text-decoration: none;
+}
+
+.logoFacebook {
+  width: 19px;
+  height: 19px;
+  color: #0c59cf;
+  text-decoration: none;
+}
+
+.logoYouTube {
+  width: 19px;
+  height: 19px;
+  color: #ff3823;
+  text-decoration: none;
+  text-align: center;
+}
+
+.userLogin {
+  border: none;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.iconoCarrito {
+  border: none;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.p-TitleTxt {
+  color: #ff3823;
+  font-family: "Source Sans 3";
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+}
+
+.p-Txt {
+  color: #7a7a7a;
+  font-family: "Source Sans 3";
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+
+.contenedorDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedorDiv .contenedorDiv-Txt {
+  color: #7a7a7a;
+  font-family: "Source Sans 3";
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.5;
+  padding: 20px;
+  max-width: 50%;
+}
+
+.mid-Foot {
+  margin-left: 48%;
+}
+
+.mid {
+  margin-left: 41%;
+}
+
+form {
+  margin-left: 41%;
+  width: 350px;
+  position: relative;
+  text-align: center;
+}
+form .campoForm::before {
+  font-size: 20px;
+  position: absolute;
+  left: 15px;
+  top: 17px;
+  color: #888888;
+  content: " ";
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+form .campoForm:nth-child(1)::before {
+  content: "\f007";
+  font: var(--fa-font-regular);
+  width: 20px;
+  height: 20px;
+  top: 15px;
+}
+form .campoForm:nth-child(2)::before {
+  content: "\f023";
+  font: var(--fa-font-regular);
+  width: 16px;
+  height: 16px;
+}
+form .campoForm {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  position: relative;
+}
+form .campoFormContacto::before {
+  font-size: 20px;
+  position: absolute;
+  left: 15px;
+  top: 17px;
+  color: #888888;
+  content: " ";
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+form .campoFormContacto {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  position: relative;
+}
+form .campoFormContacto:nth-child(1)::before {
+  content: "\f007";
+  font: var(--fa-font-regular);
+  width: 20px;
+  height: 20px;
+  top: 15px;
+}
+form .campoFormContacto:nth-child(2)::before {
+  content: "\f0e0";
+  font: var(--fa-font-regular);
+  width: 16px;
+  height: 16px;
+}
+form .campoFormContacto:nth-child(3)::before {
+  content: "\f27a";
+  font: var(--fa-font-regular);
+  width: 16px;
+  height: 16px;
+}
+form input {
+  font-family: "Source Sans 3";
+  width: 100%;
+  outline: none;
+  background-color: #fff;
+  border-radius: 4px;
+  border: none;
+  display: block;
+  padding: 0.9rem 0.7rem;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  font-size: 17px;
+  color: #4A4A4A;
+  text-indent: 40px;
+}
+
+.logoInstagram {
+  width: 19px;
+  height: 19px;
+  color: #d757f6;
+  text-decoration: none;
+}
+
+.logoTwitter {
+  width: 19px;
+  height: 19px;
+  color: #4dd7fa;
+  text-decoration: none;
+}
+
+.logoFacebook {
+  width: 19px;
+  height: 19px;
+  color: #0c59cf;
+  text-decoration: none;
+}
+
+.logoYouTube {
+  width: 19px;
+  height: 19px;
+  color: #ff3823;
+  text-decoration: none;
+  text-align: center;
+}
+
+#carouselProd {
+  display: inline-block;
+  width: 600px;
+  height: 480px;
+}
+#carouselProd .carousel-item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.rectVendido {
+  width: 87px;
+  height: 29px;
+}
+
+.stars {
+  width: 96px;
+  height: 15px;
+  float: right;
+}
+
+.carritoAdd {
+  width: 336px;
+  height: 48px;
+  padding: 0px 10px 0px 36px;
+  background: #444444;
+  color: #ffffff;
+  border-color: #444444;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 4px;
+  font-family: "Source Sans 3";
+  font-weight: 700;
+  font-size: 15px;
+  text-align: center;
+}
+
+.circuloVerde {
+  width: 16px !important;
+  height: 16px !important;
+}
+
+.techgamer-platino {
+  width: 120px;
+  height: 19px;
+  color: #444444;
+  font-family: "Source Sans 3";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.3;
+  text-align: left;
+}
+
+.tarjetasCarousel {
+  background: #f6f6f6;
+  border-color: #0c59cf;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 4px;
+}
+
+.arregloPTexto {
+  margin-left: 300px;
+  margin-top: 50px;
+}
+
+.p-Desc {
+  width: 319px;
+  height: 57px;
+  color: #0c59cf;
+  font-family: "Source Sans 3";
+  font-weight: bold;
+  font-size: 22px;
+  text-align: left;
+}
+
+.txt-Right-Produ {
+  display: inline !important;
+  margin-left: 650px !important;
+}
+
+.txt-Right {
+  display: inline !important;
+  margin-left: 260px !important;
+}
+
+.buscarProds {
+  width: 159px;
+  height: 22px;
+  color: #0c59cf;
+  font-family: "Source Sans 3";
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: underline;
+  line-height: 1.3;
+  text-align: right;
+}
+
+.arregloTarjeta {
+  height: 100%;
+}
+.arregloTarjeta .arregloTarjeta-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 200px;
+}
+
+.mid-Foot {
+  margin-left: 48%;
+}
+
+.logoInstagram {
+  width: 19px;
+  height: 19px;
+  color: #d757f6;
+  text-decoration: none;
+}
+
+.logoTwitter {
+  width: 19px;
+  height: 19px;
+  color: #4dd7fa;
+  text-decoration: none;
+}
+
+.logoFacebook {
+  width: 19px;
+  height: 19px;
+  color: #0c59cf;
+  text-decoration: none;
+}
+
+.logoYouTube {
+  width: 19px;
+  height: 19px;
+  color: #ff3823;
+  text-decoration: none;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */

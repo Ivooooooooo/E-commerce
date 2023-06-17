@@ -1,0 +1,146 @@
+#carouselProd {
+	.carousel-item {
+		img {
+			object-fit: cover;
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	display: inline-block;
+	width: 600px;
+	height: 480px;
+}
+
+.rectVendido {
+	width: 87px;
+	height: 29px;
+}
+
+.stars {
+	width: 96px;
+	height: 15px;
+	float: right;
+}
+
+.carritoAdd {
+	width: 336px;
+	height: 48px;
+	padding: 0px 10px 0px 36px;
+	background: #444444;
+	color: #ffffff;
+	border-color: #444444;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 4px;
+	font-family: "Source Sans 3";
+	font-weight: 700;
+	font-size: 15px;
+	text-align: center;
+}
+
+.circuloVerde {
+	width: 16px !important;
+	height: 16px !important;
+}
+
+.techgamer-platino {
+	width: 120px;
+	height: 19px;
+	color: #444444;
+	font-family: "Source Sans 3";
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.3;
+	text-align: left;
+}
+
+.tarjetasCarousel {
+	background: #f6f6f6;
+	border-color: #0c59cf;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 4px;
+}
+
+.arregloPTexto {
+	margin-left: 300px;
+	margin-top: 50px;
+}
+
+.p-Desc {
+	width: 319px;
+	height: 57px;
+	color: #0c59cf;
+	font-family: "Source Sans 3";
+	font-weight: bold;
+	font-size: 22px;
+	text-align: left;
+}
+
+.txt-Right-Produ {
+	display: inline !important;
+	margin-left: 650px !important;
+}
+
+.txt-Right {
+	display: inline !important;
+	margin-left: 260px !important;
+}
+
+.buscarProds {
+	width: 159px;
+	height: 22px;
+	color: #0c59cf;
+	font-family: "Source Sans 3";
+	font-weight: 600;
+	font-size: 14px;
+	text-decoration: underline;
+	line-height: 1.3;
+	text-align: right;
+}
+
+.arregloTarjeta {
+	height: 100%;
+
+	.arregloTarjeta-img {
+		object-fit: cover;
+		height: 200px;
+	}
+}
+
+.mid-Foot {
+	margin-left: 48%;
+}
+
+
+$logo-size: 19px;
+
+.logoInstagram {
+    width: $logo-size;
+    height: $logo-size;
+    color: #d757f6;
+    text-decoration: none;
+}
+
+.logoTwitter {
+    width: $logo-size;
+    height: $logo-size;
+    color: #4dd7fa;
+    text-decoration: none;
+}
+
+.logoFacebook {
+    width: $logo-size;
+    height: $logo-size;
+    color: #0c59cf;
+    text-decoration: none;
+}
+
+.logoYouTube {
+    width: $logo-size;
+    height: $logo-size;
+    color: #ff3823;
+    text-decoration: none;
+    text-align: center;
+}
