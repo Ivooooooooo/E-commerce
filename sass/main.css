@@ -1,3 +1,8 @@
+@media (max-width: 600px) {
+  .res {
+    display: none;
+  }
+}
 span.title {
   width: 129px;
   height: 34px;
@@ -71,6 +76,11 @@ span.title {
 .txt-Right {
   display: inline !important;
   margin-left: 260px !important;
+}
+
+.hurr {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .buscarProds {
@@ -492,6 +502,45 @@ form input {
   max-width: 50%;
 }
 
+.btnLogin {
+  width: 439px;
+  height: 48px;
+  padding: 0px 10px 0px 10px;
+  background: #e61610;
+  color: #ffffff;
+  border-color: #444444;
+  border-width: 1px;
+  border-style: solid;
+  font-family: "Source Sans 3";
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+}
+.btnLogin:hover {
+  background: #b90600;
+  cursor: pointer;
+}
+
+.btnRegistro {
+  margin-left: 41%;
+  width: 350px;
+  height: 48px;
+  padding: 0px 10px 0px 10px;
+  background: #ffffff;
+  color: #444444;
+  border-color: #0c59cf;
+  border-width: 2px;
+  border-style: solid;
+  font-family: "Source Sans 3";
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+}
+.btnRegistro:hover {
+  background: #c5c5c5;
+  cursor: pointer;
+}
+
 .mid-Foot {
   margin-left: 48%;
 }
@@ -616,10 +665,13 @@ form input {
   text-align: center;
 }
 
+@media (max-width: 600px) {
+  .res {
+    display: none;
+  }
+}
 #carouselProd {
   display: inline-block;
-  width: 600px;
-  height: 480px;
 }
 #carouselProd .carousel-item img {
   -o-object-fit: cover;

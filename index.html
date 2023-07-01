@@ -27,34 +27,37 @@
 
 <body>
   <header>
-    <div>
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">
-            <img src="/img/consola.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-            <span class="title">TECH GAMER</span>
-          </a>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <form class="d-flex mx-auto">
-                  <input class="form-control" type="search" placeholder="Buscar productos..." name="search">
-                </form>
-              </li>
-              <li class="nav-item">
-                <a class="userLogin" href="./login.html" target="_blank"><i class="far fa-user"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="iconoCarrito" href="./cart.html"><i class="fas fa-shopping-cart"></i></a>
-              </li>
-            </ul>
-          </div>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">
+          <img src="/img/consola.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+          <span class="title">TECH GAMER</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Abrir barra de navegacion">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <form class="d-flex mx-auto">
+                <input class="form-control" type="search" placeholder="Buscar productos..." name="search">
+              </form>
+            </li>
+            <li class="nav-item">
+              <a class="userLogin" href="./login.html" target="_blank"><i class="far fa-user"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="iconoCarrito" href="./cart.html"><i class="fas fa-shopping-cart"></i></a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
+
   </header>
 
-  <div>
+  <main role="main" class="container">
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -75,98 +78,91 @@
         </div>
       </div>
     </nav>
-  </div>
 
-  <div id="carouselex" class="carousel slide">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselex" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselex" data-bs-slide-to="1"
-        aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselex" data-bs-slide-to="2"
-        aria-label="Slide 3"></button>
+    <div id="carouselex" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselex" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselex" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselex" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/example.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/example.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/example.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselex" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselex" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
     </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="./img/example.png" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="./img/example.png" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="./img/example.png" class="d-block w-100" alt="...">
-      </div>
+
+    <hr class="hurr">
+
+    <p class="p-Desc" style="display: inline;">DESCUBRI NUEVOS PRODUCTOS!</p>
+    <div class="res">
+      <a href="./product.html" class="txt-Right" style="display: inline;">
+        <p class="txt-Right buscarProds" style="display: inline;">Buscar más productos</p>
+      </a>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselex"
-      data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselex"
-      data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    </button>
-  </div>
 
-  <br>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card arregloTarjeta">
+            <img src="./img/msi-a320m.png" class="arregloTarjeta-img" alt="Imagen de la tarjeta">
+            <div class="card-body">
+              <h5 class="card-title">MSI A320M-A PRO AM4</h5>
+              <p class="card-text">Plataforma AMDSocket AM4 Ryzen 1th Gen, AM4.</p>
 
-  <p class="p-Desc marginLeft" style="display: inline;">DESCUBRI NUEVOS PRODUCTOS!</p>
-  <a href="./product.html" class="txt-Right" style="display: inline;">
-    <p class="txt-Right buscarProds" style="display: inline;">Buscar más productos</p>
-  </a>
-
-  <br>
-  <br>
-  <br>
-  
-  <div class="container">
-    <div class="row">
-      <div class="col-md-3">
-        <div class="card arregloTarjeta">
-          <img src="./img/msi-a320m.png" class="arregloTarjeta-img" alt="Imagen de la tarjeta">
-          <div class="card-body">
-            <h5 class="card-title">MSI A320M-A PRO AM4</h5>
-            <p class="card-text">Plataforma AMDSocket AM4 Ryzen 1th Gen, AM4.</p>
-  
-            <a href="#" class="btn btn-primary">Ver más</a>
+              <a href="#" class="btn btn-primary">Ver más</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card arregloTarjeta">
-          <img src="./img/Capricornus 502-B.jpg" class="arregloTarjeta-img" alt="Imagen de la tarjeta">
-          <div class="card-body">
-            <h5 class="card-title">Redragon Capricornus 502-B</h5>
-            <p class="card-text">Medidas del asiento: 54.5 cm de ancho, 46 cm de altura.</p>
-  
-            <a href="#" class="btn btn-primary">Ver más</a>
+        <div class="col-md-3">
+          <div class="card arregloTarjeta">
+            <img src="./img/Capricornus 502-B.jpg" class="arregloTarjeta-img" alt="Imagen de la tarjeta">
+            <div class="card-body">
+              <h5 class="card-title">Redragon Capricornus 502-B</h5>
+              <p class="card-text">Medidas del asiento: 54.5 cm de ancho, 46 cm de altura.</p>
+
+              <a href="#" class="btn btn-primary">Ver más</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card arregloTarjeta">
-          <img src="./img/ryzen3.png" class="arregloTarjeta-img" alt="Imagen de la tarjeta">
-          <div class="card-body">
-            <h5 class="card-title">AMD Ryzen 3 4100</h5>
-            <p class="card-text">Socket: AM4 Ryzen 4th GenWraith Stealth Cooler AM4.</p>
-  
-            <a href="#" class="btn btn-primary">Ver más</a>
+        <div class="col-md-3">
+          <div class="card arregloTarjeta">
+            <img src="./img/ryzen3.png" class="arregloTarjeta-img" alt="Imagen de la tarjeta">
+            <div class="card-body">
+              <h5 class="card-title">AMD Ryzen 3 4100</h5>
+              <p class="card-text">Socket: AM4 Ryzen 4th GenWraith Stealth Cooler AM4.</p>
+
+              <a href="#" class="btn btn-primary">Ver más</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card arregloTarjeta">
-          <img src="./img/astroA30.png" class="arregloTarjeta-img" alt="Imagen de la tarjeta">
-          <div class="card-body">
-            <h5 class="card-title">Logitech Astro A30</h5>
-            <p class="card-text">Navy Red Wireless Lightspeed PC/XBOX/PS.</p>
-  
-            <a href="#" class="btn btn-primary">Ver más</a>
+        <div class="col-md-3">
+          <div class="card arregloTarjeta">
+            <img src="./img/astroA30.png" class="arregloTarjeta-img" alt="Imagen de la tarjeta">
+            <div class="card-body">
+              <h5 class="card-title">Logitech Astro A30</h5>
+              <p class="card-text">Navy Red Wireless Lightspeed PC/XBOX/PS.</p>
+
+              <a href="#" class="btn btn-primary">Ver más</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  
+  </main>
 
   <footer class="mid-Foot">
     <br>

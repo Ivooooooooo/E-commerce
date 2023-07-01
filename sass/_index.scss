@@ -1,5 +1,11 @@
 $logo-size: 19px;
 
+@media (max-width: 600px) {
+    .res {
+        display: none;
+    }
+}
+
 span.title {
     width: 129px;
     height: 34px;
@@ -71,6 +77,11 @@ span.title {
 .txt-Right {
     display: inline !important;
     margin-left: 260px !important;
+}
+
+.hurr {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .buscarProds {

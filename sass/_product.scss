@@ -1,3 +1,9 @@
+@media (max-width: 600px) {
+    .res {
+        display: none;
+    }
+}
+
 #carouselProd {
 	.carousel-item {
 		img {
@@ -8,8 +14,6 @@
 	}
 
 	display: inline-block;
-	width: 600px;
-	height: 480px;
 }
 
 .rectVendido {
