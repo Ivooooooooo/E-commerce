@@ -7,6 +7,11 @@ $title-font-size: 22px;
 $title-line-height: 1.28;
 $title-text-align: left;
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .userLogin {
 	border: none;
 	text-decoration: none;

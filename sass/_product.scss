@@ -1,18 +1,13 @@
 @media (max-width: 600px) {
-    .res {
-        display: none;
-    }
+	.res {
+		display: none;
+	}
 }
 
 #carouselProd {
-	.carousel-item {
-		img {
-			object-fit: cover;
-			width: 100%;
-			height: 100%;
-		}
-	}
-
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
 	display: inline-block;
 }
 
@@ -25,6 +20,11 @@
 	width: 96px;
 	height: 15px;
 	float: right;
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
 }
 
 .carritoAdd {
@@ -121,30 +121,30 @@
 $logo-size: 19px;
 
 .logoInstagram {
-    width: $logo-size;
-    height: $logo-size;
-    color: #d757f6;
-    text-decoration: none;
+	width: $logo-size;
+	height: $logo-size;
+	color: #d757f6;
+	text-decoration: none;
 }
 
 .logoTwitter {
-    width: $logo-size;
-    height: $logo-size;
-    color: #4dd7fa;
-    text-decoration: none;
+	width: $logo-size;
+	height: $logo-size;
+	color: #4dd7fa;
+	text-decoration: none;
 }
 
 .logoFacebook {
-    width: $logo-size;
-    height: $logo-size;
-    color: #0c59cf;
-    text-decoration: none;
+	width: $logo-size;
+	height: $logo-size;
+	color: #0c59cf;
+	text-decoration: none;
 }
 
 .logoYouTube {
-    width: $logo-size;
-    height: $logo-size;
-    color: #ff3823;
-    text-decoration: none;
-    text-align: center;
+	width: $logo-size;
+	height: $logo-size;
+	color: #ff3823;
+	text-decoration: none;
+	text-align: center;
 }

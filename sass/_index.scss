@@ -1,9 +1,42 @@
 $logo-size: 19px;
 
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 @media (max-width: 600px) {
     .res {
         display: none;
     }
+}
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    filter: alpha(opacity=0);
+    opacity: 0;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.carousel-control-prev-icon::before,
+.carousel-control-next-icon::before {
+    content: '\f060';
+    font: var(--fa-font-regular);
+    color: #0c59cf;
+}
+
+.carousel-control-next-icon::before {
+    content: '\f061';
+    font: var(--fa-font-regular);
+    color: #0c59cf;
 }
 
 span.title {
@@ -44,10 +77,24 @@ span.title {
     margin: 0 auto;
 }
 
-.carousel-item img {
-    width: 500px;
-    height: 250px;
-    object-fit: cover;
+.carousel-inner {
+    .carousel-item {
+        img {
+            max-width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+}
+
+.cuotas-text {
+    font-size: 14px;
+    color: #999;
+}
+
+.bigg {
+    font-size: 40;
+    font-weight: 500;
 }
 
 .p-Desc {
@@ -58,6 +105,10 @@ span.title {
     font-weight: bold;
     font-size: 22px;
     text-align: left;
+}
+
+.sinDeco {
+    text-decoration: none !important;
 }
 
 .marginLeft {
@@ -96,8 +147,30 @@ span.title {
     text-align: right;
 }
 
-.mid-Foot {
-    margin-left: 48%;
+footer {
+    background-color: transparent;
+    padding: 20px;
+
+    .footer-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .redes-media {
+            font-size: 24px;
+
+            .redes-link {
+                color: #333;
+                margin-right: 10px;
+            }
+        }
+
+        .ofiDireccion {
+            font-size: 14px;
+        }
+    }
 }
 
 .logoInstagram {
