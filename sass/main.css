@@ -23,8 +23,7 @@ body {
   outline: none;
 }
 
-.carousel-control-prev-icon::before,
-.carousel-control-next-icon::before {
+.carousel-control-prev-icon::before {
   content: "\f060";
   font: var(--fa-font-regular);
   color: #0c59cf;
