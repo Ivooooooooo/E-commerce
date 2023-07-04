@@ -1,5 +1,113 @@
 $logo-size: 19px;
 
+.image-container {
+    width: 100px;
+    padding-right: 10px;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+}
+
+.text-container {
+    flex-grow: 1;
+}
+
+.cart {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .cart-items {
+        list-style: none;
+        padding: 0;
+
+        .cart-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+
+            .item-image {
+                width: 100px;
+                height: auto;
+                margin-right: 20px;
+            }
+
+            .item-details {
+                h3 {
+                    font-size: 18px;
+                    margin-bottom: 5px;
+                }
+
+                p {
+                    font-size: 14px;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+
+    .cart-total {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+        padding-top: 10px;
+        border-top: 1px solid #ddd;
+
+        h4 {
+            font-size: 18px;
+        }
+
+        .checkout-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #0056b3;
+            }
+        }
+
+        div {
+            input[type="text"] {
+                padding: 0.5rem;
+                font-size: 1rem;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+
+            button#cupon-button {
+                padding: 0.5rem 1rem;
+                font-size: 1rem;
+                background-color: #0c59cf;
+                color: #fff;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                transition: background-color 0.3s ease-in-out;
+
+                &:hover {
+                    background-color: #094dab;
+                }
+            }
+        }
+    }
+}
+
+
 span.title {
     width: 129px;
     height: 34px;

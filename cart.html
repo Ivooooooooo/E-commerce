@@ -82,7 +82,7 @@
       <div class="row">
         <div class="col">
           <label class="text-muted">
-            <a href="./index.html" class="sinDeco">
+            <a href="javascript:history.back(1)" class="sinDeco">
               < Volver</a>
           </label>
         </div>
@@ -93,74 +93,39 @@
             <h1 class="my-5">Carrito</h1>
           </div>
         </div>
-
-        <div class="row">
-          <div class="col-md-6 mb-3">
-            <div class="card">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="./img/msi-a320m.png" class="img-fluid" alt="MSI A320M">
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">MSI A320M</h5>
-                    <p class="card-text">Motherboard MSI A320m A Pro Amd Am4 Ddr4.</p>
-                    <br>
-                    <p class="card-text">Tiempo estimado de entrega: 2-4 semanas.</p>
-
-                    <div class="d-flex align-items-center">
-                      <span class="text-muted me-2">Precio:</span>
-                      <span class="text-success">$58.743</span>
-                    </div>
-
-                    <div class="input-group kustie-inputkie-groupie-nombrerelargo">
-                      <input type="number" class="form-control" value="1" min="1" max="10">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 mb-3">
-            <div class="card">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="./img/monitor-gigabyte-27-curvo-165hz.jpg" class="img-fluid" alt="Gigabyte G27QC">
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Gigabyte G27QC</h5>
-                    <p class="card-text">Monitor gamer curvo Gigabyte G27QC 27" negro.</p>
-                    <br>
-                    <p class="card-text">Tiempo estimado de entrega: 2-4 semanas.</p>
-
-                    <div class="d-flex align-items-center">
-                      <span class="text-muted me-2">Precio:</span>
-                      <span class="text-success">$313.757</span>
-                    </div>
-
-                    <div class="input-group kustie-inputkie-groupie-nombrerelargo">
-                      <input type="number" class="form-control" value="1" min="1" max="10">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
+        <div class="container mt-4 mb-4">
           <div class="row">
-            <div class="col-md-12">
-              <div class="card">
-                <br>
-                <h5>Total con envío</h5>
-                <div class="col-md-6 mb-3">
-                  <div class="card-body">
-                    <p class="card-text">Items en el carrito <span class="txt-Right">$300</span></p>
-                    <p class="card-text">Descuentos<span class="txt-Right">$300</span></p>
-                    <p class="card-text">Ingresar cupón</p>
-                    <div class="input-group kustie-inputkie-groupie-nombrerelargo">
-                      <input type="text" class="form-control">
+            <div class="col-xxl-12">
+              <div class="card border-0">
+                <div class="card-body">
+                  <div class="cart">
+                    <ul class="cart-items">
+                      <li class="cart-item">
+                        <img src="./img/monitor-gigabyte-27-curvo-165hz.jpg" alt="Gigabyte G27QC" class="item-image">
+                        <div class="item-details">
+                          <h3>Gigabyte G27QC</h3>
+                          <p>Marca: Gigabyte</p>
+                          <p>Precio: $313.757</p>
+                        </div>
+                      </li>
+                      <li class="cart-item">
+                        <img src="./img/msi-a320m.png" alt="MSI A320M" class="item-image">
+                        <div class="item-details">
+                          <h3>MSI A320M</h3>
+                          <p>Marca: MSI</p>
+                          <p>Precio: $58.743</p>
+                        </div>
+                      </li>
+                    </ul>
+                    <div class="cart-total">
+                      <h4>Total: $372500</h4>
+
+                      <div>
+                        <input type="text" id="cupon-input" placeholder="Ingresa tu cupón">
+                        <button class="checkout-button" id="cupon-button">Aplicar Cupón</button>
+                      </div>
+
+                      <button class="checkout-button">Finalizar Compra</button>
                     </div>
                   </div>
                 </div>
@@ -169,6 +134,64 @@
           </div>
         </div>
       </div>
+    </div>
+
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-xxl-12">
+          <div class="card border-0">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-sm-3">
+                  <div class="card border-0">
+                    <div class="card-body">
+                      <i class="fa-regular fa-credit-card text-primary" style="display: inline;"></i>
+                      <h5 class="card-title" style="display: inline;">Tarjeta de crédito</h5>
+                      <a href="#" class="sinDeco">
+                        <p class="card-text text-primary">Ver promociones bancarias.</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="card border-0">
+                    <div class="card-body">
+                      <i class="fa-solid fa-credit-card text-primary" style="display: inline;"></i>
+                      <h5 class="card-title" style="display: inline;">Tarjeta de Débito</h5>
+                      <a href="#" class="sinDeco">
+                        <p class="card-text text-primary">Ver más.</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="card border-0">
+                    <div class="card-body">
+                      <i class="fa-regular fa-hand-holding-heart text-primary" style="display: inline;"></i>
+                      <h5 class="card-title" style="display: inline;">Cuotas sin tarjeta</h5>
+                      <a href="#" class="sinDeco">
+                        <p class="card-text text-primary">Conocé nuestros créditos.</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="card border-0">
+                    <div class="card-body">
+                      <i class="fa-light fa-money-bill-wave text-primary" style="display: inline;"></i>
+                      <h5 class="card-title" style="display: inline;">Efectivo</h5>
+                      <a href="#" class="sinDeco">
+                        <p class="card-text text-primary">Ver más.</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
 
   <footer class="mt-4 mb-4">
