@@ -307,12 +307,45 @@ footer .footer-container .ofiDireccion {
   flex-grow: 1;
 }
 
+.hr-opacity-4 {
+  opacity: 0.1;
+}
+
 .cart {
   background-color: #f9f9f9;
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.cart .payment-methods .card.card-payment.selected {
+  background-color: blue;
+  color: white;
+}
+.cart .payment-methods h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.cart .payment-methods ul {
+  list-style: none;
+}
+.cart .payment-methods ul li {
+  cursor: pointer;
+}
+.cart .payment-methods ul li:hover {
+  color: blue;
+}
+.cart .payment-methods .checkout-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cart .payment-methods .checkout-button:hover {
+  background-color: #0056b3;
 }
 .cart h2 {
   font-size: 24px;
@@ -387,18 +420,6 @@ footer .footer-container .ofiDireccion {
 }
 .cart .cart-total h4 {
   font-size: 18px;
-}
-.cart .cart-total .checkout-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-.cart .cart-total .checkout-button:hover {
-  background-color: #0056b3;
 }
 .cart .cart-total div input[type=text] {
   padding: 0.5rem;

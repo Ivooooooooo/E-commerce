@@ -92,3 +92,14 @@ checkoutButton.addEventListener('click', function () {
         confirmButtonText: "Aceptar"
     });
 });
+
+function selectPaymentMethod(index) {
+    const paymentMethods = document.querySelectorAll('.card.card-payment');
+    paymentMethods.forEach((method, i) => {
+        if (i === index) {
+            method.classList.add('selected');
+        } else {
+            method.classList.remove('selected');
+        }
+    });
+}

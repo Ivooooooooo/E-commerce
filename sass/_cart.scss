@@ -14,12 +14,54 @@ $logo-size: 19px;
     flex-grow: 1;
 }
 
+.hr-opacity-4 {
+    opacity: 0.1;
+}
+
 .cart {
     background-color: #f9f9f9;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    .payment-methods {
+        .card.card-payment.selected {
+            background-color: blue;
+            color: white;
+        }
+
+        h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style: none;
+
+            li {
+                cursor: pointer;
+
+                &:hover {
+                    color: blue;
+                }
+            }
+        }
+
+        .checkout-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #0056b3;
+            }
+        }
+    }
 
     h2 {
         font-size: 24px;
@@ -109,20 +151,6 @@ $logo-size: 19px;
 
         h4 {
             font-size: 18px;
-        }
-
-        .checkout-button {
-            padding: 10px 20px;
-            font-size: 16px;
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-
-            &:hover {
-                background-color: #0056b3;
-            }
         }
 
         div {
