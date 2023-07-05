@@ -78,18 +78,18 @@
   </header>
 
   <main role="main" class="container">
-    <div id="carouselex" class="carousel slide">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselex" data-bs-slide-to="0" class="active" aria-current="true"
-          aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselex" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselex" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <div id="carouselex" class="carousel slide" data-bs-ride="carousel">
+
+      <div class="carousel-indicators res">
+        <button type="button" data-bs-target="#carouselex" data-bs-slide-to="0" class="active text-bg-primary" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselex" data-bs-slide-to="1" class="text-bg-primary" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselex" data-bs-slide-to="2" class="text-bg-primary" aria-label="Slide 3"></button>
       </div>
+
       <div class="carousel-inner">
         <div class="carousel-item active">
           <a href="./product.html" class="carousel-link sinDeco">
-            <img src="./img/monitor-gigabyte-27-curvo-165hz.jpg" class="d-block w-100"
-              alt="Monitor gamer curvo Gigabyte G27QC led">
+            <img src="./img/monitor-gigabyte-27-curvo-165hz.jpg" class="d-block w-100" alt="Monitor gamer curvo Gigabyte G27QC led">
             <div class="carousel-text">
               <h3>Gigabyte G27QC LED 27"</h3>
               <p>Monitor gamer curvo Gigabyte G27QC led 27" negro 100V/240V</p>
@@ -100,8 +100,7 @@
         </div>
         <div class="carousel-item">
           <a href="#" class="carousel-link sinDeco">
-            <img src="./img/asus a520m.png" class="d-block w-80"
-              alt="Motherboard Asus Prime A520m-k Amd Ryzen 3ra Gen Gamer M.2">
+            <img src="./img/asus a520m.png" class="d-block w-80" alt="Motherboard Asus Prime A520m-k Amd Ryzen 3ra Gen Gamer M.2">
             <div class="carousel-text">
               <h3>Asus Prime A520M-K</h3>
               <p>Motherboard Asus Prime A520m-k Amd Ryzen 3ra Gen Gamer M.2</p>
@@ -112,8 +111,7 @@
         </div>
         <div class="carousel-item">
           <a href="#" class="carousel-link sinDeco">
-            <img src="./img/a30-white-01.png" class="d-block w-100"
-              alt="Auriculares gamer inalámbricos Astro A30 blanco">
+            <img src="./img/a30-white-01.png" class="d-block w-100" alt="Auriculares gamer inalámbricos Astro A30 blanco">
             <div class="carousel-text">
               <h3>Astro A30 blanco</h3>
               <p>Auriculares gamer inalámbricos Astro A30 blanco</p>
@@ -124,10 +122,10 @@
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselex" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="carousel-control-prev-icon visually-hidden" aria-hidden="true"></span>
       </button>
       <button class="carousel-control-next" type="button" data-bs-target="#carouselex" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="carousel-control-next-icon visually-hidden" aria-hidden="true"></span>
       </button>
     </div>
 
@@ -246,7 +244,8 @@
               <img src="./img/Capricornus 502-B.jpg" class="arregloTarjeta-img" alt="Redragon Capricornus 502-B">
               <div class="card-body">
                 <h5 class="card-title">Redragon Capricornus 502-B</h5>
-                <p class="card-text">Medidas del asiento: 54.5 cm de ancho, 46 cm de altura.</p>
+                <p class="card-text resPlus">Medidas del asiento: 54.5cm x 46cm.</p>
+                <p class="card-text resMax">Medidas del asiento: 54.5 cm de ancho, 46 cm de altura.</p>
                 <h4 class="text-success bigg">$153.999</h4>
                 <p class="cuotas-text">en 12x $12.833</p>
               </div>
@@ -289,7 +288,7 @@
             <div class="carousel-item active">
               <div class="row">
                 <div class="col-md-6 mb-4">
-                  <div class="review-card p-4">
+                  <div class="p-4">
                     <div class="d-flex align-items-center mb-3">
                       <i class="fa-duotone fa-user fa-3x me-3"></i>
                       <h4>Juan Pérez</h4>
@@ -301,7 +300,7 @@
                 </div>
   
                 <div class="col-md-6 mb-4">
-                  <div class="review-card p-4">
+                  <div class="p-4">
                     <div class="d-flex align-items-center mb-3">
                       <i class="fa-duotone fa-user fa-3x me-3"></i>
                       <h4>María González</h4>
@@ -317,7 +316,7 @@
             <div class="carousel-item">
               <div class="row">
                 <div class="col-md-6 mb-4">
-                  <div class="review-card p-4">
+                  <div class="p-4">
                     <div class="d-flex align-items-center mb-3">
                       <i class="fa-duotone fa-user fa-3x me-3"></i>
                       <h4>Carlos Rodríguez</h4>
@@ -329,7 +328,7 @@
                 </div>
   
                 <div class="col-md-6 mb-4">
-                  <div class="review-card p-4">
+                  <div class="p-4">
                     <div class="d-flex align-items-center mb-3">
                       <i class="fa-duotone fa-user fa-3x me-3"></i>
                       <h4>Laura López</h4>
