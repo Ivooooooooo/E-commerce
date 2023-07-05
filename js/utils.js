@@ -24,14 +24,6 @@ document.addEventListener('DOMContentLoaded', function () {
     setTimeout(hidePreloader, 500);
 });
 
-document.querySelector('.checkout-button').addEventListener('click', function () {
-    Swal.fire({
-        title: "No implementado aún",
-        icon: "warning",
-        confirmButtonText: "Aceptar"
-    });
-});
-
 document.getElementById('cupon-button').addEventListener('click', aplicarCupon);
 
 function aplicarCupon() {
@@ -39,22 +31,33 @@ function aplicarCupon() {
     const cuponButton = document.getElementById('cupon-button');
     const cupon = cuponInput.value;
 
-    // Verificar validez del cupón y aplicar descuento si corresponde
     if (cupon === 'DESCUENTO10') {
         const totalElement = document.querySelector('.cart-total h4');
         const totalText = totalElement.textContent;
-        const total = parseFloat(totalText.replace(/[^\d.]/g, '')); // Obtener el valor numérico del total eliminando caracteres no numéricos
+        const total = parseFloat(totalText.replace(/[^\d.]/g, ''));
 
-        const descuento = total * 0.1; // Calcular el descuento (10%)
-        const nuevoTotal = total - descuento; // Calcular el nuevo total con descuento
+        const descuento = total * 0.1;
+        const nuevoTotal = total - descuento;
 
-        totalElement.textContent = 'Total: $' + nuevoTotal.toFixed(2); // Actualizar el elemento con el nuevo total
-        cuponInput.value = ''; // Limpiar el campo de cupón
+        totalElement.textContent = 'Total: $' + nuevoTotal.toFixed(2);
+        cuponInput.value = '';
         Swal.fire({
             title: 'Cupón aplicado',
             text: 'Se ha aplicado un descuento del 10% al total.',
             icon: 'success',
-            confirmButtonText: 'Aceptar'
+            html: 'Me cerraré en <b></b> milisegundos.',
+            timer: 2000,
+            timerProgressBar: true,
+            didOpen: () => {
+                Swal.showLoading()
+                const b = Swal.getHtmlContainer().querySelector('b')
+                timerInterval = setInterval(() => {
+                    b.textContent = Swal.getTimerLeft()
+                }, 100)
+            },
+            willClose: () => {
+                clearInterval(timerInterval)
+            }
         });
 
         cuponButton.disabled = true;
@@ -63,7 +66,29 @@ function aplicarCupon() {
             title: 'Cupón inválido',
             text: 'El cupón ingresado no es válido.',
             icon: 'error',
-            confirmButtonText: 'Aceptar'
+            html: 'Me cerraré en <b></b> milisegundos.',
+            timer: 2000,
+            timerProgressBar: true,
+            didOpen: () => {
+                Swal.showLoading()
+                const b = Swal.getHtmlContainer().querySelector('b')
+                timerInterval = setInterval(() => {
+                    b.textContent = Swal.getTimerLeft()
+                }, 100)
+            },
+            willClose: () => {
+                clearInterval(timerInterval)
+            }
         });
     }
 }
+
+const checkoutButton = document.getElementById('checkout-button');
+
+checkoutButton.addEventListener('click', function () {
+    Swal.fire({
+        title: "No implementado aún",
+        icon: "warning",
+        confirmButtonText: "Aceptar"
+    });
+});

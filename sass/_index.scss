@@ -68,6 +68,41 @@ body {
     }
 }
 
+.alert-text {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f44336;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    position: relative;
+    display: inline-block;
+}
+
+@media (min-width: 1024px) {
+    .alert-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.close-button i {
+    color: white;
+    display: inline-block;
+}
+
 .card-link {
     text-decoration: none;
     color: inherit;
