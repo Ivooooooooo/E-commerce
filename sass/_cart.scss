@@ -61,6 +61,13 @@ $logo-size: 19px;
                 background-color: #0056b3;
             }
         }
+
+        @media (max-width: 600px) {
+            .cat {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        }
     }
 
     h2 {
